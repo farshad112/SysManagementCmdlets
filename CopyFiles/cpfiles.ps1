@@ -20,3 +20,11 @@ cpfiles -srcDir C:\SampleFiles -destDir D:\ -remoteHostName user-pc
 cpfiles -srcDir C:\SampleFiles -destDir D:\ -remoteHostName user1-pc,user2-pc
 #>
 
+param(
+    [Parameter (Mandatory=$true, Position=1)]
+    [string] $srcDir,
+    [Parameter (Mandatory=$true, Position=2)]
+    [string] $destDir
+)
+
+Copy-Item -Path $srcDir -Destination $destDir -Recurse -Force
