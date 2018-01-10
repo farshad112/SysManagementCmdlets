@@ -1,22 +1,37 @@
 ﻿<#
-.Synopsys
+.SYNOPSYS
+
 Copies files and folder recursively from specified directory to destination directory. 
 Supports copying on both local and remote filesystem.
-.Description
+
+.DESCRIPTION
+
 This script copies subdirectories and files under a specified directory to the destination directory.
 User has to specify the source and destination directory as command line argument. It is useful for
 recursive copy and paste task on remote server management.   
-.Parameter srcDir
+
+.PARAMETER srcDir
+
 This is the source directory path
-.Parameter destDir
+
+.PARAMETER destDir
+
 This is the destination directory path
-.Parameter remoteHostName
+
+.PARAMETER remoteHostName
+
 Names of remote servers
-.Example 
+
+.EXAMPLE 
+
 cpfiles -srcDir C:\SampleFiles -destDir D:\
-.Example
+
+.EXAMPLE
+
 cpfiles -srcDir C:\SampleFiles -destDir D:\ -remoteHostName user-pc
-.Example
+
+.EXAMPLE
+
 cpfiles -srcDir C:\SampleFiles -destDir D:\ -remoteHostName user1-pc,user2-pc
 #>
 

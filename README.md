@@ -6,6 +6,7 @@ Each folder in this repository contains powershell scripts that are dedicated fo
 
 ## Table of Content
 - [CopyFiles](CopyFiles/readme.md)
+- [MakeShortcuts](MakeShortcuts/readme.md)
 
 ## Contribution list
 If you like my project feel free to contribute to it. I will list the name of the contributors below:
