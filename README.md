@@ -12,4 +12,5 @@ Each folder in this repository contains powershell scripts that are dedicated fo
 If you like my project feel free to contribute to it. I will list the name of the contributors below:
 
 ## Bug Report and Fixes
+-MakeShortcuts :: exclude option not working
        
